@@ -10,6 +10,6 @@ public class HomeController {
 	
 	  @RequestMapping("/")
 	    public String homett(Map<String, Object> model) {
-	        return "test";
+	        return "Addon";
 	    }
 	}
